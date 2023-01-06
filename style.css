@@ -1,0 +1,94 @@
+*{
+    margin: 0%;
+}
+.header-image{
+background-image: url(/banner/banner2.png);
+position: relative;
+background-position: center;
+height: 700px;
+top: 0px;
+margin: 0 auto;
+background-size: cover;
+}
+.header-title{
+    position: absolute;
+    width: 550px;
+    height: 80px;
+    left: 845px;
+    top: 216px;
+}
+.header-info{
+    position: absolute;
+    width: 494px;
+    height: 78px;
+    left: 876px;
+    top: 350px;    
+}
+.header-text button{
+    position: absolute;
+    width: 150px;
+    height: 60px;
+    left: 1180px;
+    top: 500px;
+    color: white;
+}
+.button-primary{
+    background-color: rgb(237, 114, 6);
+    height: 64px;
+    width: 100px;
+    left: 1210px;
+    top: 578px;
+    border-radius: 0px;
+}
+
+/* ...main section.. */
+
+.failures-section{
+    display: flex;
+}
+.failures-image{
+    position: absolute;
+    width: 560px;
+    height: 700px;
+    left: 200px;
+    top: 950px;
+
+}
+.failure-title{
+    position: absolute;
+    width: 288px;
+    height: 94px;
+    left: 862px;
+    top: 1178px;
+    font-size: 22px;
+}
+.failure-description{
+    position: absolute;
+    width: 416px;
+    height: 104px;
+    left: 862px;
+    top: 1296px;
+}
+.failure-decription-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+.failure-icon{
+    position: absolute;
+    width: 400px;
+    height: 162px;
+    left: 5px;
+    top: 122px;   
+}
+
+/* .....new year my plan section....... -- */
+
+.plan-section{
+    position: absolute;
+    width: 349px;
+    height: 162px;
+    left: 862px;
+    top: 1860px;
+    font-size: 22px;
+}
