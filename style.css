@@ -3,9 +3,9 @@
 }
 .header-image{
 background-image: url(/banner/banner2.png);
-position: relative;
-background-position: center;
-height: 700px;
+background-position: relative;
+position: center;
+height: 885px;
 top: 0px;
 margin: 0 auto;
 background-size: cover;
@@ -14,22 +14,37 @@ background-size: cover;
     position: absolute;
     width: 550px;
     height: 80px;
-    left: 845px;
-    top: 216px;
+    left: 1183px;
+    top: 204px;
+
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 87px;
+    line-height: 76px;
+    text-align: right;
+
 }
+
 .header-info{
     position: absolute;
     width: 494px;
     height: 78px;
-    left: 876px;
-    top: 350px;    
+    left: 1257px;
+    top: 490px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+
 }
 .header-text button{
     position: absolute;
     width: 150px;
     height: 60px;
-    left: 1180px;
-    top: 500px;
+    left: 1575px;
+    top: 648px;
     color: white;
 }
 .button-primary{
@@ -37,8 +52,9 @@ background-size: cover;
     height: 64px;
     width: 100px;
     left: 1210px;
-    top: 578px;
-    border-radius: 0px;
+    top: 580px;
+    border-radius: 5px;
+    border: 0px;
 }
 
 /* ...main section.. */
@@ -84,11 +100,225 @@ background-size: cover;
 
 /* .....new year my plan section....... -- */
 
-.plan-section{
+
+.icon-title{
     position: absolute;
-    width: 349px;
-    height: 162px;
-    left: 862px;
-    top: 1860px;
-    font-size: 22px;
+    width: 179px;
+    height: 47px;
+    left: 893px;
+    top: 1792.3px;
+    font-weight: 550;
+    font-size: 28px;
+    line-height: 47px;
 }
+.icon-section{
+    display: flex;
+   position: absolute;
+    width: 1141px;
+    height: 299.96px;
+    left: 750px;
+    top: 1930px;
+}
+.icon-web{
+    position: absolute;
+    height: 93px;
+    left: -140px;
+}
+.icon-java{
+    position: absolute;
+    height: 90px;
+    left: 62px;
+}
+.icon-smoke{
+    position: absolute;
+    height: 90px;
+    left: 236px;
+}
+.icon-ecom{
+    position: absolute;
+    height: 90px;
+    left: 416px;
+}
+.icon-description{
+    font-family: 'Work Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 29px;
+color: #737272;
+}
+
+/* .....main image with color gradient blind section...... */
+
+.gradient-image{
+    background-image: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%), url(/images/watch.png);
+     background-repeat: no-repeat;
+    position: absolute;
+    width: 1140px;
+    height: 300px;
+    left: 414px;
+    top: 2216.3px;
+    
+}
+.gradient-title{
+    position: absolute;
+    width: 478px;
+    height: 140px;
+    left: 58px;
+    top: 47px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color:  #FFFFFF;
+}
+.gradient-button{
+    position: absolute;
+    width: 160px;
+    height: 64px;
+    left: 58px;
+    top: 187px;
+    border: 0px;
+    border-radius: 5px;
+
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 23px;
+    text-align: center;
+    color: #F15B22;   
+}
+
+/* ..........future section styl is here,,,,,,,,,,,,, */
+
+.future-section{
+    position: absolute;
+    width: 1903px;
+    height: 577px;
+    left: 0px;
+    top: 2646.3px;
+    background: #151414;
+}
+.future-title{
+    position: absolute;
+    width: 148px;
+    height: 53px;
+    left: 280px;
+    top: 128px;
+    color: rgb(227 227 227);
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+}
+.future-description{
+    position: absolute;
+    width: 485px;
+    height: 78px;
+    left: 280px;
+    top: 214px;
+
+    color: rgb(227 227 227);
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+.future-email{
+    position: absolute;
+    width: 485px;
+    height: 78px;
+    left: 280px;
+    top: 339px;
+
+    color: rgb(227 227 227);
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+.future-phone{
+    position: absolute;
+    width: 485px;
+    height: 78px;
+    left: 280px;
+    top: 376px;
+
+    color: rgb(227 227 227);
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+/* ......future icone,,,,, */
+
+.future-fb{
+    position: absolute;
+    width: 485px;
+    height: 78px;
+    left: 280px;
+    top: 480px;
+}
+.future-twitter{
+    position: absolute;
+    width: 485px;
+    height: 78px;
+    left: 344px;
+    top: 480px;
+
+}
+.future-yt{
+    position: absolute;
+    width: 485px;
+    height: 78px;
+    left: 404px;
+    top: 480px;
+}
+.future-subscribe{
+    position: absolute;
+    width: 148px;
+    height: 53px;
+    left: 1309px;
+    top: 128px;
+    color: rgb(227 227 227);
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 53px;
+}
+.future-subscribe-email{
+    position: absolute;
+    width: 325px;
+    height: 64px;
+    left: 1309px;
+    top: 213px;
+    }
+    input{
+        border-radius: 5px;
+        height: 43px;
+        width: 267px;
+    }
+   .future-button{
+    position: absolute;
+    background: #f2efed;
+    color: #F15B22;
+    border-radius: 5px;
+    border: none;
+    width: 107px;
+    height: 43px;
+    left: 0px;
+    top: 53px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+   }
