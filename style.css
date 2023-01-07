@@ -2,7 +2,7 @@
     margin: 0%;
 }
 .header-image{
-background-image: url(/banner/banner2.png);
+background-image: url(./banner/banner2.png);
 background-position: relative;
 position: center;
 height: 885px;
@@ -151,7 +151,7 @@ color: #737272;
 /* .....main image with color gradient blind section...... */
 
 .gradient-image{
-    background-image: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%), url(/images/watch.png);
+    background-image: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%), url(./images/watch.png);
      background-repeat: no-repeat;
     position: absolute;
     width: 1140px;
